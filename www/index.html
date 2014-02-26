@@ -37,6 +37,9 @@
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
+			alert('a');
+			window.plugins.childBrowser.showWebPage(currRecipe.pdf, { showLocationBar: false });
+			alert('b');
         </script>
     </body>
 </html>
