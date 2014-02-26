@@ -38,7 +38,9 @@
         <script type="text/javascript">
             app.initialize();
 			alert('a');
-			window.plugins.childBrowser.showWebPage("http://www.webnology.co.il", { showLocationBar: false });
+			//window.plugins.childBrowser.showWebPage("http://www.webnology.co.il", { showLocationBar: false });
+			window.open(encodeURI('http://www.webnology.co.il'), '_blank', 'location=yes');
+
 			alert('b');
         </script>
     </body>
